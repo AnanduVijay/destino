@@ -2,20 +2,21 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    marginTop: 25,
+    marginTop: 20,
     justifyContent: 'center',
     alignItems: 'center',
     gap: 5,
   },
   placeImage: {
-    width: 60,
-    height: 60,
+    width: 55,
+    height: 55,
     borderWidth: 2,
     borderColor: 'white',
     borderRadius: 50,
   },
   countryText: {
-    color: '#E0E0E1',
+    color: '#E5DFDF',
+    fontSize: 10,
   },
   placeText: {
     color: 'white',

@@ -12,28 +12,29 @@ export default StyleSheet.create({
   },
   titleText: {
     color: '#fff',
-    fontSize: 30,
-    fontWeight: 'bold',
+    fontSize: 32,
+    fontWeight: '900',
   },
   sloganText: {
-    color: '#fff',
-    marginBottom: 30,
+    color: '#E5DFDF',
+    fontSize: 12,
+    marginBottom: 20,
     marginTop: 10,
   },
   carouselContainer: {
     flexDirection: 'row',
-    gap: 15,
+    gap: 20,
   },
   placeContainer: {
     width: '100%',
     backgroundColor: '#ffff',
-    borderRadius: 20,
+    borderRadius: 25,
     padding: 20,
     marginTop: 25,
   },
   placeTitle: {
     color: 'black',
-    fontSize: 18,
-    fontWeight: 'bold',
+    fontSize: 16,
+    fontWeight: '900',
   },
 });

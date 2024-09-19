@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
   container: {
     flexDirection: 'row',
-    marginTop: 20,
+    marginTop: 15,
     alignItems: 'center',
     justifyContent: 'space-between',
   },
@@ -22,6 +22,7 @@ export default StyleSheet.create({
   },
   cityTitle: {
     color: 'black',
+    fontWeight: 'bold',
   },
   placeTite: {
     color: 'grey',

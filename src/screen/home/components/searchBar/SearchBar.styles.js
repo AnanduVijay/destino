@@ -5,6 +5,8 @@ export default styles = StyleSheet.create({
     backgroundColor: '#ffff',
     borderRadius: 50,
     flexDirection: 'row',
+    alignItems: 'center',
+    paddingLeft: 10,
   },
   inputText: {
     color: 'grey',
