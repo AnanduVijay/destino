@@ -14,7 +14,18 @@ const AppNavigation = () => {
           component={HomeScreen}
           options={{headerShown: false}}
         />
-        <Stack.Screen name="city Details" component={DetailsScreen} />
+        <Stack.Screen
+          name="city Details"
+          component={DetailsScreen}
+          options={{
+            title: 'City Details',
+            headerStyle: {
+              backgroundColor: '#3E67F5',
+            },
+            headerTintColor: '#fff',
+            headerTitleAlign: 'center',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
