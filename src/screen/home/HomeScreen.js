@@ -5,7 +5,10 @@ import SearchBar from './components/searchBar/SearchBar';
 import Carousel from './components/carousel/Carousel';
 import PlaceCard from './components/placeCard/PlaceCard';
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
+  const handlePress = () => {
+    navigation.navigate('city Details');
+  };
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>Hi,Vetrick!</Text>
@@ -16,7 +19,7 @@ const HomeScreen = () => {
       <SearchBar />
 
       <View style={styles.carouselContainer}>
-        <Carousel />
+        <Carousel onPress={handlePress} />
         <Carousel />
         <Carousel />
         <Carousel />
