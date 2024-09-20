@@ -16,7 +16,7 @@ export default StyleSheet.create({
     borderRadius: 50,
   },
   countryText: {
-    color: '#E5DFDF',
+    color: '#white',
     fontSize: 10,
   },
   placeText: {

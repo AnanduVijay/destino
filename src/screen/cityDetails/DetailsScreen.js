@@ -8,9 +8,11 @@ const DetailsScreen = () => {
   return (
     <View style={styles.container}>
       <DetailsCard />
-      <ScrollView style={styles.activityContainer}>
+      <ScrollView
+        style={styles.activityContainer}
+        showsVerticalScrollIndicator={false}>
         <Text style={styles.titleText}>Things to do</Text>
-        <ScrollView horizontal={true}>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           <ActivityCarousel />
           <ActivityCarousel />
           <ActivityCarousel />

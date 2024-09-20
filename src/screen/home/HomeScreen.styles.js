@@ -21,13 +21,16 @@ export default StyleSheet.create({
     marginBottom: 20,
     marginTop: 10,
   },
-  carouselContainer: {},
+  carouselContainer: {
+    paddingBottom: 15,
+    marginTop: 20,
+  },
   placeContainer: {
     width: '100%',
     backgroundColor: '#ffff',
     borderRadius: 25,
     padding: 20,
-    marginTop: 25,
+    marginTop: 20,
   },
   placeTitle: {
     color: 'black',

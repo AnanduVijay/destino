@@ -2,11 +2,11 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    marginTop: 20,
+    marginTop: 15,
     marginRight: 20,
     alignItems: 'center',
     gap: 5,
-    marginBottom: 20,
+    marginBottom: 15,
   },
   activityImage: {
     width: 55,

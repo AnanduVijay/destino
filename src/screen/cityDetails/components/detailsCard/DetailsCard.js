@@ -3,7 +3,8 @@ import React from 'react';
 import styles from './DetailsCard.styles';
 import {MapPinIcon, HeartIcon} from 'react-native-heroicons/solid';
 import EconomicData from '../economicData/EconomicData';
-import ReadMore from '@fawazahmed/react-native-read-more';
+// import ReadMore from '@fawazahmed/react-native-read-more';
+import ReadMore from '../readMore/ReadMore';
 const DetailsCard = () => {
   return (
     <View style={styles.container}>
@@ -39,14 +40,15 @@ const DetailsCard = () => {
         </View>
       </View>
       <View style={styles.descriptionContainer} seeMoreStyle={{color: '#000'}}>
-        <ReadMore numberOfLines={2} style={{color: 'black'}}>
-          Bangkok, Thailand's capital, is a large city known for ornate shrines
+        <ReadMore
+          targetLines={2}
+          text="Bangkok, Thailand's capital, is a large city known for ornate shrines
           and vibrant street life. The boat-filled Chao Phraya River feeds its
           network of canals, flowing past the Rattanakosin royal district, home
           to opulent Grand Palace and its sacred Wat Phra Kaew Temple. Nearby is
           Wat Pho Temple with an enormous reclining Buddha and, on the opposite
-          shore.
-        </ReadMore>
+          shore."
+        />
       </View>
       <View>
         <EconomicData />

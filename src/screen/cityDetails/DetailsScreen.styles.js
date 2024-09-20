@@ -5,14 +5,14 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: '#3E67F5',
     padding: 10,
-    paddingTop: 50,
+    paddingTop: 45,
   },
   activityContainer: {
     width: '100%',
     backgroundColor: '#ffff',
     borderRadius: 25,
     padding: 20,
-    marginTop: 25,
+    marginTop: 10,
   },
   titleText: {
     color: '#000',
