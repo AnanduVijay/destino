@@ -21,10 +21,7 @@ export default StyleSheet.create({
     marginBottom: 20,
     marginTop: 10,
   },
-  carouselContainer: {
-    flexDirection: 'row',
-    gap: 20,
-  },
+  carouselContainer: {},
   placeContainer: {
     width: '100%',
     backgroundColor: '#ffff',

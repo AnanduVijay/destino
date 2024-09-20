@@ -18,13 +18,18 @@ const HomeScreen = ({navigation}) => {
       </Text>
       <SearchBar />
 
-      <View style={styles.carouselContainer}>
+      {/* <View style={styles.carouselContainer}> */}
+      <ScrollView horizontal={true} style={styles.carouselContainer}>
         <Carousel onPress={handlePress} />
         <Carousel />
         <Carousel />
         <Carousel />
         <Carousel />
-      </View>
+
+        <Carousel />
+        <Carousel />
+      </ScrollView>
+      {/* </View> */}
       <ScrollView style={styles.placeContainer}>
         <Text style={styles.placeTitle}>You might like!</Text>
         <PlaceCard />

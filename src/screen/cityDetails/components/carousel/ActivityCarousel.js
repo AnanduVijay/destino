@@ -8,10 +8,10 @@ const ActivityCarousel = () => {
       <TouchableOpacity>
         <Image
           style={styles.activityImage}
-          source={require('../../../../assets/images/Kuching.jpg')}
+          source={require('../../../../assets/images/Activity.png')}
         />
       </TouchableOpacity>
-      <Text style={styles.activityText}>Kuching</Text>
+      <Text style={styles.activityText}>Yoga</Text>
     </View>
   );
 };

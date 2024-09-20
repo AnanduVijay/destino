@@ -14,4 +14,9 @@ export default StyleSheet.create({
     padding: 20,
     marginTop: 25,
   },
+  titleText: {
+    color: '#000',
+    fontSize: 16,
+    fontWeight: '900',
+  },
 });

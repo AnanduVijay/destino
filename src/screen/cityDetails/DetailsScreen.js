@@ -9,14 +9,16 @@ const DetailsScreen = () => {
     <View style={styles.container}>
       <DetailsCard />
       <ScrollView style={styles.activityContainer}>
-        <Text style={{color: 'black'}}>Things to do</Text>
+        <Text style={styles.titleText}>Things to do</Text>
         <ScrollView horizontal={true}>
           <ActivityCarousel />
           <ActivityCarousel />
           <ActivityCarousel />
           <ActivityCarousel />
+          <ActivityCarousel />
+          <ActivityCarousel />
         </ScrollView>
-        <Text style={{color: 'black'}}>Must visit</Text>
+        <Text style={styles.titleText}>Must visit</Text>
         <PlaceList />
         <PlaceList />
         <PlaceList />
