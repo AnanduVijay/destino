@@ -12,6 +12,7 @@ export default StyleSheet.create({
     borderRadius: 25,
     padding: 20,
     marginTop: 10,
+    height: '55%',
   },
   titleText: {
     color: '#000',

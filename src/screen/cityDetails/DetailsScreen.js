@@ -13,25 +13,25 @@ const DetailsScreen = ({navigation}) => {
     <View style={styles.container}>
       <Header onPress={handleBackButton} />
       <DetailsCard />
-      <ScrollView
-        style={styles.activityContainer}
-        showsVerticalScrollIndicator={false}>
-        <Text style={styles.titleText}>Things to do</Text>
-        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-          <ActivityCarousel />
-          <ActivityCarousel />
-          <ActivityCarousel />
-          <ActivityCarousel />
-          <ActivityCarousel />
-          <ActivityCarousel />
+      <View style={styles.activityContainer}>
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <Text style={styles.titleText}>Things to do</Text>
+          <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+            <ActivityCarousel />
+            <ActivityCarousel />
+            <ActivityCarousel />
+            <ActivityCarousel />
+            <ActivityCarousel />
+            <ActivityCarousel />
+          </ScrollView>
+          <Text style={styles.titleText}>Must visit</Text>
+          <PlaceList />
+          <PlaceList />
+          <PlaceList />
+          <PlaceList />
+          <PlaceList />
         </ScrollView>
-        <Text style={styles.titleText}>Must visit</Text>
-        <PlaceList />
-        <PlaceList />
-        <PlaceList />
-        <PlaceList />
-        <PlaceList />
-      </ScrollView>
+      </View>
     </View>
   );
 };
