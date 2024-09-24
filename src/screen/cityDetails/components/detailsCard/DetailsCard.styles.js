@@ -5,6 +5,7 @@ export default StyleSheet.create({
     backgroundColor: '#ffff',
     borderRadius: 25,
     padding: 20,
+    marginTop: 10,
   },
   imageContainer: {
     backgroundColor: '#ffff',
