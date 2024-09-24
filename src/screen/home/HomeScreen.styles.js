@@ -31,6 +31,7 @@ export default StyleSheet.create({
     borderRadius: 25,
     padding: 20,
     marginTop: 20,
+    height: '55%',
   },
   placeTitle: {
     color: 'black',

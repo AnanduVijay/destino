@@ -5,7 +5,6 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: '#3E67F5',
     padding: 10,
-    paddingTop: 45,
   },
   activityContainer: {
     width: '100%',

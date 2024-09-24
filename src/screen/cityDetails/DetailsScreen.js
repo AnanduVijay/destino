@@ -4,9 +4,14 @@ import styles from './DetailsScreen.styles';
 import DetailsCard from './components/detailsCard/DetailsCard';
 import ActivityCarousel from './components/carousel/ActivityCarousel';
 import PlaceList from './components/placeList/PlaceList';
-const DetailsScreen = () => {
+import Header from './components/header/Header';
+const DetailsScreen = ({navigation}) => {
+  const handleBackButton = () => {
+    navigation.navigate('Home');
+  };
   return (
     <View style={styles.container}>
+      <Header onPress={handleBackButton} />
       <DetailsCard />
       <ScrollView
         style={styles.activityContainer}

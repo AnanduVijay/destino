@@ -30,18 +30,17 @@ const HomeScreen = ({navigation}) => {
         <Carousel />
         <Carousel />
       </ScrollView>
-      <ScrollView
-        style={styles.placeContainer}
-        showsVerticalScrollIndicator={false}>
-        <Text style={styles.placeTitle}>You might like!</Text>
-        <PlaceCard />
-        <PlaceCard />
-        <PlaceCard />
-        <PlaceCard />
-        <PlaceCard />
-        <PlaceCard />
-        <PlaceCard />
-      </ScrollView>
+      <View style={styles.placeContainer}>
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <Text style={styles.placeTitle}>You might like!</Text>
+          <PlaceCard />
+          <PlaceCard />
+          <PlaceCard />
+          <PlaceCard />
+          <PlaceCard />
+          <PlaceCard />
+        </ScrollView>
+      </View>
     </View>
   );
 };
